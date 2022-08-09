@@ -13,7 +13,7 @@ class About : Me
 
     fun String.getCurrentWorkplace() =
         when (this) {
-            "company" -> "GTRIIP"
+            "company" -> "True Digital Group"
             "position" -> "Android Software Engineer"
             "location" -> "Bangkok, Thailand"
             else -> "WFH"
